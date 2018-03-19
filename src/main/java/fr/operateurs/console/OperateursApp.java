@@ -10,10 +10,10 @@ public class OperateursApp {
 		System.out.println("Veillez saisir le second nombre...");
 		Scanner questionUser2 = new Scanner(System.in);
 		int b = questionUser2.nextInt();
-		System.out.println("<nombre_1> + <nombre_2> = <résultat du calcul>"
-				+ "\n a - b = " 
-				+ "\n<nombre_1> * <nombre_2> = <résultat du calcul>"
-				+ "\n<nombre_1> / <nombre_2> = <résultat du calcul>"
-				+ "\n<nombre_1> % <nombre_2> = <résultat du calcul>");
+		System.out.println("\n" + a + " + " + b + " = " + (a+b) + "");
+		System.out.println("\n" + a + " - " + b + " = " + (a-b) + "");
+		System.out.println("\n" + a + " * " + b + " = " + (a*b) + "");
+		System.out.println("\n" + a + " / " + b + " = " + (a/b) + "");
+		System.out.println("\n" + a + " % " + b + " = " + (a%b) + "");
 	}
 }
